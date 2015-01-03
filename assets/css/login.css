@@ -1,0 +1,53 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ddd;
+  font-family: "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', 'wenquanyi micro hei', sans-serif;
+}
+
+.form-login {
+    width: 304px;
+    padding: 20px 25px 30px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+}
+.form-login h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.form-login .checkbox {
+  margin: 10px;
+    margin-left: 20px;
+  font-weight: normal;
+}
+.form-login input[type=checkbox] {
+    margin-left: -20px;
+}
+.form-login .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.form-login .form-control:focus {
+  z-index: 2;
+}
+.form-login input[type="email"] {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
