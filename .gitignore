@@ -1,0 +1,4 @@
+# ignore phpstorm project files
+/.idea/
+/resources/
+*.db
