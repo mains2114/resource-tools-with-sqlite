@@ -63,7 +63,7 @@ $records = $query->fetchAll(PDO::FETCH_ASSOC);
 				<td><?=$i['id']?></td>
 				<td><?=$i['name']?></td>
 				<td><span class="text-capitalize"><?=$i['type']?></span></td>
-				<td><a href="resources/<?=$i['type'].'/'.$i['source']?>"><?=$i['source']?></a></td>
+				<td><a target="_blank" href="resources/<?=$i['type'].'/'.$i['source']?>"><?=$i['source']?></a></td>
 				<td><?=$i['md5']?></td>
 				<td><a href="#"><span class="glyphicon glyphicon-share"></span></a></td>
 				<td><a href="edit.php?rid=<?=$i['id']?>"><span class="glyphicon glyphicon-edit"></span></a></td>
