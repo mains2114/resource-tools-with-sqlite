@@ -78,6 +78,7 @@ $records = $query->fetchAll(PDO::FETCH_ASSOC);
 		  </tbody>
 	  </table>
   </div>
+<script language="JavaScript" src="assets/js/jquery-1.11.0.min.js"></script>
 <script language="JavaScript" src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
